@@ -1,7 +1,7 @@
 
-#Part A 
+# Part A 
 # Top 10 Economies in the World
-###Project definition 
+### Project definition 
 
 This is a project about extracting data from an API and compiling it into a CSV file for data analysis. 
 
@@ -15,7 +15,7 @@ For this project, my group and I decided to scrape data from Investopedia.com an
 
 My team an I chose to analyze the dataset of Annual Subway Ridership in NYC, specifically focusing on the data between 2019 and 2020 and taking a look at the major components and variables that could be the reason behind any major discrepancies or decreasing behaviors across subway ridership between the two years given the start of the pandemic in 2020.
 
-###Libraries and data analysis. 
+### Libraries and data analysis. 
 
 We used the following libraries: 
 1. *pandas* library to work with out table data. 
@@ -40,7 +40,7 @@ lastly, we calculated the riders per borough in 2019 by using a lambda function:
 `g.apply(lambda x: x[x['Boro'] == 'Bx']['2019'].sum())`
 and the max riders in 2020 to calculate the percentile change in ridership. We found that the change between the max amount of riders in these 2 years was -68% in any given station. We also looked for the percentage change to compare the 2 years and the difference was minimal at -0.062%. 
 
-###Conclusion 
+### Conclusion 
 
 Given that the difference of annual ridership between 2018 and 2019 was so insignificant, and no variable stuck out as being a deciding factor in total annual counts, we believe that the reason there was such a decrease between 2019 and 2020 was due to Covid, where the majority of usual annual subway riders were now staying home more frequently.
 
