@@ -44,4 +44,4 @@ and the max riders in 2020 to calculate the percentile change in ridership. We f
 Given that the difference of annual ridership between 2018 and 2019 was so insignificant, and no variable stuck out as being a deciding factor in total annual counts, we believe that the reason there was such a decrease between 2019 and 2020 was due to Covid, where the majority of usual annual subway riders were now staying home more frequently.
 
 
-![alt text](https://github.com/mariapereyras/analysis-world-economies-/images/BarPlot.png "Hello")
+![alt text](https://github.com/mariapereyras/analysis-world-economies-/blob/main/images%20/BarPlot.png "Hello")
