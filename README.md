@@ -5,17 +5,17 @@
 
 This is a project about extracting data from an API and compiling it into a CSV file for data analysis. 
 
-###Data Extraction 
+### Data Extraction 
 
 For this project, my group and I decided to scrape data from Investopedia.com and investigate the countries that have the best economies in the world. We used *BeautifulSoup* to parse data and decided to focus on the top 10 countries to give our readers a more simplified and organized view to compare the top 10 countries and their economical data by way of a dataframe. We also used *Pandas* to convert the list of dictionaries that we obtained from our data extration  into a table. We took our final results and exported them into a *CSV file*.
 
-#Part B 
-#Annual Subway Ridership in NYC - 2019 vs. 2020
-###Project definition 
+# Part B 
+# Annual Subway Ridership in NYC - 2019 vs. 2020
+### Project definition 
 
 My team an I chose to analyze the dataset of Annual Subway Ridership in NYC, specifically focusing on the data between 2019 and 2020 and taking a look at the major components and variables that could be the reason behind any major discrepancies or decreasing behaviors across subway ridership between the two years given the start of the pandemic in 2020.
 
-### Libraries and data analysis. 
+### Libraries and data analysis
 
 We used the following libraries: 
 1. *pandas* library to work with out table data. 
