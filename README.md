@@ -27,11 +27,12 @@ We found our data set in the MTA of NYC website here: https://new.mta.info/agenc
  
 After doing this we looked for empty cells but we didn't had any using the following code `df.isna().sum()` and then we went on to looking for the unique station names in NYC and noticed that all the stations are unique and the total amount of stations is 424 using the following code `df.Station.value_counts()`. We also saw by using `df.Boro.value_counts()` that Brooklyn is the borough with the most stations at 157 stations, followed by Manhattan with 121 stations, Queens with 78 stations and lastly The Bronx with 68 stations, these findings we were able to plot by using the *seaborn* package in a bar chart for ease of interpretation. 
 
+![alt text](https://github.com/mariapereyras/analysis-world-economies-/blob/main/images%20/BarPlot.png "Hello")
 
 
 We also found by using `df.describe()` the summary of the most important metrics for the subway riders data per year and were able to obtain the mean, min, max, etc., to interprete this data easily we plotted a scatterplot by borough with the values from 2019 - 2020 percentage change, from this plot we can interprete that Queens had the most prominent change if rider counts across all its stations with a 0.46% change in ridership from 2019 to 2020 and Brooklyn with a -0.85% change in ridership from 2019 to 2020. 
 
-
+![alt text](https://github.com/mariapereyras/analysis-world-economies-/blob/main/images%20/Scatterplot.png "Hello")
 
 
 lastly, we calculated the riders per borough in 2019 by using a lambda function: 
@@ -44,4 +45,3 @@ and the max riders in 2020 to calculate the percentile change in ridership. We f
 Given that the difference of annual ridership between 2018 and 2019 was so insignificant, and no variable stuck out as being a deciding factor in total annual counts, we believe that the reason there was such a decrease between 2019 and 2020 was due to Covid, where the majority of usual annual subway riders were now staying home more frequently.
 
 
-![alt text](https://github.com/mariapereyras/analysis-world-economies-/blob/main/images%20/BarPlot.png "Hello")
